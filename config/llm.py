@@ -1,7 +1,7 @@
 from langchain_huggingface.llms import HuggingFacePipeline
 
 # Modelo usado pelo agente
-MODEL_ID = "Qwen/Qwen2.5-0.5B-Instruct"
+MODEL_ID = "distilgpt2"
 
 
 def get_llm():
